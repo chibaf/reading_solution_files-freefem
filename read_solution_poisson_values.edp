@@ -15,7 +15,6 @@ string s;
   }
 }
 
-
 ofstream ff1("gamma_1.dat");
 for(int i=0;i<nn;i++){
   ff1 << u(i*(R2-R1)/nn, 0.) << endl;
@@ -30,7 +29,6 @@ ofstream ff3("gamma_3.dat");
 for(int i=0;i<nn;i++){
   ff3 << u(-R2+i*(R2-R1)/nn, 0.) << endl;
 }
-
 
 ofstream ff4("gamma_4.dat");
 for(int i=0;i<nn;i++){
