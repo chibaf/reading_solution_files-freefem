@@ -11,11 +11,3 @@ string s;
   }
 }
 plot(u,value=1,wait=1,fill=1,ps="poisson-freefem-sol.eps");
-//savesol("NS_.sol",Th,ux,uy,p);
-
-//ofstream ffi("Inlet_rho=e0_mu=e1_R.dat");
-//ofstream ffo("Outlet_rho=e0_mu=e1_R.dat");
-//for(int i=0;i<ny;i++){
-//  ffi << p(L1, -t1/2.+i*t1/ny) << endl;
-//  ffo << p(-L1, -R1+i*t1/ny) << endl;
-//}
