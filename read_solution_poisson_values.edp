@@ -1,0 +1,40 @@
+real R1=3;
+real R2=5;
+int nn=10;
+
+mesh Th=readmesh("poisson-freefem.msh");
+fespace Uh(Th,P1);
+Uh u;
+
+string s;
+{
+  ifstream file("poisson-freefem.sol");
+  for(int i=0; i < 8; i++) {getline(file,s); cout << "[sol]" << s << endl;}
+  for (int i=0; i < Th.nv; i++) {
+    file >> u[][i];
+  }
+}
+
+
+ofstream ff1("gamma_1.dat");
+for(int i=0;i<nn;i++){
+  ff1 << u(i*(R2-R1)/nn, 0.) << endl;
+}
+
+ofstream ff2("gamma_2.dat");
+for(int i=0;i<nn;i++){
+  ff2 << u(R2*cos(i*pi/nn),R2*sin(i*pi/nn)) << endl;
+}
+
+ofstream ff3("gamma_3.dat");
+for(int i=0;i<nn;i++){
+  ff3 << u(-R2+i*(R2-R1)/nn, 0.) << endl;
+}
+
+
+ofstream ff4("gamma_4.dat");
+for(int i=0;i<nn;i++){
+  ff4 << u(R1*cos(pi-i*pi/nn),R1*sin(pi-i*pi/nn)) << endl;
+}
+
+plot(u,value=1,wait=1,fill=1,ps="poisson-freefem-sol.eps");
