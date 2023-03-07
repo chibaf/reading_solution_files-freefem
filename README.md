@@ -3,6 +3,8 @@ reading solution files saved by freefem program
 
 # freefemの計算結果をfreefemで読み込んで解析する
 
+２次元のfreefemでも計算に数時間かかることはよくあります。そういう場合、結果を保存しfreefemで読み込めるようにしておくと、後の解析に便利です。
+
 #メッシュを読み込んで表示
 
 :show_mesh_poisson.edp
