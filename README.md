@@ -24,3 +24,5 @@ reading solution files saved by freefem program
 ![poisson-freefem-sol](https://user-images.githubusercontent.com/1296728/223427786-db076877-f4cc-4d51-87cf-262b2f963f92.jpg)
 
 # 境界( $\Gamma_1$, $\Gamma_2$, $\Gamma_3$, $\Gamma_4$ )での解の値
+
+:read_solution_poisson_values.edp
