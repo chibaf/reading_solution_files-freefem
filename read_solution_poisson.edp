@@ -1,0 +1,38 @@
+load "medit";
+
+int Inlet=0;  // 入口   
+int Outlet=1; // 出口
+int Wall=2;  // 壁
+int nn=5; // 境界を構成する各曲線の分割数
+
+real L1=10.; // 計算領域の横の長さ
+real t1=2.; // パイプの幅
+real R1=5.; // 外側の円の半径
+real R2=3.; // 内側の円の半径
+
+real Rho = 1.;
+real Mu = 1.e0;
+
+int ny=40;
+
+mesh Th=readmesh("poisson-freefem.msh");
+fespace Uh(Th,P1);
+Uh u;
+
+string s;
+{
+  ifstream file("poisson-freefem.sol");
+  for(int i=0; i < 8; i++) {getline(file,s); cout << "[sol]" << s << endl;}
+  for (int i=0; i < Th.nv; i++) {
+    file >> u[][i];
+  }
+}
+plot(u,value=1,wait=1,fill=1,ps="prs_rho=e0_mu=e1_R.eps");
+//savesol("NS_.sol",Th,ux,uy,p);
+
+//ofstream ffi("Inlet_rho=e0_mu=e1_R.dat");
+//ofstream ffo("Outlet_rho=e0_mu=e1_R.dat");
+//for(int i=0;i<ny;i++){
+//  ffi << p(L1, -t1/2.+i*t1/ny) << endl;
+//  ffo << p(-L1, -R1+i*t1/ny) << endl;
+//}
