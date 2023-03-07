@@ -1,0 +1,2 @@
+mesh Th=readmesh("poisson-freefem.msh");
+plot(Th,ps="Th-mesh-poisson.eps");
