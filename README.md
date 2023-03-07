@@ -15,6 +15,6 @@ reading solution files saved by freefem program
 
 # 保存した結果をfreefemで読み込み有限要素解としてメモリー上に再構築
 
-![poisson-freefem-sol](https://user-images.githubusercontent.com/1296728/223427786-db076877-f4cc-4d51-87cf-262b2f963f92.jpg)
-
 :read_solution_poisson.edp
+
+![poisson-freefem-sol](https://user-images.githubusercontent.com/1296728/223427786-db076877-f4cc-4d51-87cf-262b2f963f92.jpg)
