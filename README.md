@@ -37,3 +37,6 @@ $\Gamma_2$
 
 <img width="560" alt="gamma2" src="https://user-images.githubusercontent.com/1296728/223615403-324839cf-679d-4bba-b15e-b0365ac6656c.png">
 
+$\Gamma_3$
+
+<img width="560" alt="gamma3" src="https://user-images.githubusercontent.com/1296728/223615525-f5af64bb-2e0e-414e-98cc-ded71484f6c2.png">
