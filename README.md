@@ -32,3 +32,8 @@ reading solution files saved by freefem program
  $\Gamma_1$
 
 <img width="560" alt="gamma1" src="https://user-images.githubusercontent.com/1296728/223615078-7ccd03bc-1a6e-442f-8322-7780d6f5bb97.png">
+
+$\Gamma_2$
+
+<img width="560" alt="gamma2" src="https://user-images.githubusercontent.com/1296728/223615403-324839cf-679d-4bba-b15e-b0365ac6656c.png">
+
