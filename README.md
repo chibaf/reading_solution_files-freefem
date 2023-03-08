@@ -34,6 +34,8 @@ reading solution files saved by freefem program
 
 グラフはGNU Octaveで作成しました
 
+ x=1:1:10
+
  a=load("gamma_1.dat");
  
  plot(x,a)
