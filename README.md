@@ -29,8 +29,9 @@ reading solution files saved by freefem program
 
 グラフはGNU Octaveで作成しました
 
->> a=load("gamma_1.dat");
->> plot(x,a)
+ a=load("gamma_1.dat");
+ 
+ plot(x,a)
 
 :read_solution_poisson_values.edp
 
