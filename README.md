@@ -27,17 +27,18 @@ reading solution files saved by freefem program
 
 有限要素解のファイルを読み込んで領域の特定の場所での関数値を求める
 
+:read_solution_poisson_values.edp
+
+![poisson_boundary](https://user-images.githubusercontent.com/1296728/223591537-78575a31-ce9d-40e1-9156-7abd941526ed.png)
+
+
 グラフはGNU Octaveで作成しました
 
  a=load("gamma_1.dat");
  
  plot(x,a)
 
-:read_solution_poisson_values.edp
-
-![poisson_boundary](https://user-images.githubusercontent.com/1296728/223591537-78575a31-ce9d-40e1-9156-7abd941526ed.png)
-
- $\Gamma_1$
+$\Gamma_1$
 
 <img width="560" alt="gamma1" src="https://user-images.githubusercontent.com/1296728/223615078-7ccd03bc-1a6e-442f-8322-7780d6f5bb97.png">
 
