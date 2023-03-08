@@ -11,7 +11,7 @@ reading solution files saved by freefem program
 
 ![Th-mesh-poisson](https://user-images.githubusercontent.com/1296728/223427532-685b816f-3f5a-482a-9d38-6b7d7dcebf05.jpg)
 
-# 有限要素法で近似解を計算し、結果を保存する
+# 有限要素法で近似解を構成し、結果を保存する
 
 :poisson-freefem.edp
 
