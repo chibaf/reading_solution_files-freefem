@@ -25,6 +25,8 @@ reading solution files saved by freefem program
 
 # 境界( $\Gamma_1$, $\Gamma_2$, $\Gamma_3$, $\Gamma_4$ )での解の値
 
+有限要素解のファイルを読み込んで領域の特定の場所での関数値を求める
+
 :read_solution_poisson_values.edp
 
 ![poisson_boundary](https://user-images.githubusercontent.com/1296728/223591537-78575a31-ce9d-40e1-9156-7abd941526ed.png)
