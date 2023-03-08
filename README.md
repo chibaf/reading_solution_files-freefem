@@ -40,3 +40,7 @@ $\Gamma_2$
 $\Gamma_3$
 
 <img width="560" alt="gamma3" src="https://user-images.githubusercontent.com/1296728/223615525-f5af64bb-2e0e-414e-98cc-ded71484f6c2.png">
+
+$\Gamma_4$
+
+<img width="560" alt="gamma4" src="https://user-images.githubusercontent.com/1296728/223615717-b0009813-1629-473c-9a5a-6949e1650b48.png">
