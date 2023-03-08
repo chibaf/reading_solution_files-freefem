@@ -29,6 +29,6 @@ reading solution files saved by freefem program
 
 ![poisson_boundary](https://user-images.githubusercontent.com/1296728/223591537-78575a31-ce9d-40e1-9156-7abd941526ed.png)
 
- $Gamma_1$ 
+ $$Gamma_1$$ 
 
 <img width="560" alt="gamma1" src="https://user-images.githubusercontent.com/1296728/223615078-7ccd03bc-1a6e-442f-8322-7780d6f5bb97.png">
